@@ -1,10 +1,10 @@
 # Employee-Churn
 Data Science with Employee Churn related dataset
 
-After reading this article(https://towardsdatascience.com/building-an-employee-churn-model-in-python-to-develop-a-strategic-retention-plan-57d5bd882c2d), i was using the same dataset to verify potential added values using more advanced approach.
+After reading this article (https://towardsdatascience.com/building-an-employee-churn-model-in-python-to-develop-a-strategic-retention-plan-57d5bd882c2d), i was using the same dataset to verify potential added values of my approach.
 
 
-## Results of experiment:
+## Results of the experiment:
 
 Using TPOT² algorithm, the best prediction using traditional (statistical) models is arround 0.87.
 This CV score is obtained using this pipeline:
@@ -22,12 +22,12 @@ TPOTClassifier(config_dict=None, crossover_rate=0.1, cv=5,
 
 ²: TPOT is a Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming.
 
-Using deep learning approach and SMOTE³, the standard tabular leaner (FastAI) demonstrate 
+Using deep learning approach and SMOTE³, my standard tabular leaner (FastAI) demonstrate 
 supremacy at the 2nd epoch with perfect accuracy score (1.0).
 
 ³SMOTE - Synthetic Minority Over-sampling Technique as presented in https://imbalanced-learn.org/
 
-ALl 3 kernels of this experiment run on CPU (GPU is faster for part 3). 
+ALl 3 kernels of this experiment can run on CPU (GPU is faster for part 3). 
 
 ## Related work:
 
