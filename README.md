@@ -22,8 +22,10 @@ TPOTClassifier(config_dict=None, crossover_rate=0.1, cv=5,
 
 ²: TPOT is a Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming.
 
-Using deep learning approach, the standard tabular leaner (FastAI) demonstrate 
+Using deep learning approach and SMOTE³, the standard tabular leaner (FastAI) demonstrate 
 supremacy at the 2nd epoch with perfect accuracy score (1.0).
+
+³SMOTE - Synthetic Minority Over-sampling Technique as presented in https://imbalanced-learn.org/
 
 ALl 3 kernels of this experiment run on CPU (GPU is faster for part 3). 
 
